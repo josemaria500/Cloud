@@ -11,7 +11,7 @@ In this project, I am using an IBM Cloud Lite account.
 | requirements.txt | The packages and versions that the application requires to run the app |
 | manifest.yml | Displays the required application details, in this case, name of the app and memory allocated in th IBM Cloud|
 | Procfile | Reference to the main Python program to run the application |
-| -hello.py | Python program written using Flask |
+| `hello.py`| Python program written using Flask |
  
  ## Deploy the application to IBM Cloud Foundry
  
@@ -62,5 +62,7 @@ start command:   python hello.py
 #0   running   2020-10-23T19:48:44Z   0.0%   40K of 64M   183.1M of 1G
  ```
  
-Now, you can see the web app [hello.py](https://webappflask.eu-gb.mybluemix.net) or in the URL <name app>.<selected IBM Cloud Foundry service region>.mybluemix.net
- 
+Now, you can see the web app [hello.py](https://webappflask.eu-gb.mybluemix.net) or in the URL:
+ ```sh
+<name app>.<selected IBM Cloud Foundry service region>.mybluemix.net
+  ```
