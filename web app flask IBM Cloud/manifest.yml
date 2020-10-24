@@ -1,0 +1,4 @@
+---
+applications:
+- name: webappflask
+  memory: 64M
